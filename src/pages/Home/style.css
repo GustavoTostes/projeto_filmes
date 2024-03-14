@@ -1,0 +1,23 @@
+.container-filmes {
+
+    width: 80%;
+    display: grid;
+    margin: 30px; 
+    gap: 30px;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+
+}
+
+@media (max-width: 750px) {
+
+    .container-filmes {
+
+        width: 80%;
+        display: grid;
+        margin: 30px; 
+        gap: 30px;
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    
+    }
+
+} 

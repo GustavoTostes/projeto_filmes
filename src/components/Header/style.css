@@ -1,0 +1,80 @@
+.header {
+
+    background: #212121;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+
+}
+
+@media (max-width: 350px) {
+
+    .header {
+
+        background: #212121;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: auto;
+    
+    }
+
+    .logo {
+
+        text-decoration: none;
+        font-size: 22px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: .2s;
+        margin-bottom: 20px;
+    
+    }
+
+}
+
+.logo {
+
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+.logo:hover {
+
+    color: #CCCCCC;
+
+}
+
+.meus-filmes {
+
+    text-decoration: none;
+    font-size: 17px;
+    color: #0097A7;
+    border: none;
+    border-radius: 100px;
+    padding: 14px 24px;
+    background: #0096a715;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.meus-filmes:hover {
+
+    color: white;
+    background: linear-gradient(110deg, #00838F 50%, #007783 50%);
+
+}
+
+
+
